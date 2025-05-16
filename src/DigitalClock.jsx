@@ -28,8 +28,6 @@ function DigitalClock() {
             <div className="clock-container">
                 <div className="clock">
                     <p>Time According to IST</p>
-                    {/* <span>00:00:00</span> */}
-                    {/* <span>{Time.getHours}:{Time.getMinutes}:{Time.getSeconds}</span> */}
                     <span>{formatTime()}</span>
                 </div>
             </div>
